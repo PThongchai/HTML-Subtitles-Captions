@@ -21,7 +21,7 @@
             <!-- Include a track tag with the src attribute set to "dog-video.vtt" -->
             <video width="400" controls>
                 <source src="./assets/videos/dog-video.mp4">
-                <track src="./assets/text-tracks/dog-video.vtt" kind="captions" srclang="en" label="EN captions">
+                <track src="./assets/text-tracks/dog-video.vtt" kind="subtitles" srclang="en" label="EN captions">
             </video>
         </div>
         <div>
@@ -34,9 +34,9 @@
             <!-- TODO: Put the pigeons in love MP4 video here-->
             <!-- This video should have controls and two track tags (for example, for English AND French subtitles) -->
             <video width="400px" controls preload="metadata">
-                <source src="assets/videos/pigeons-in-love.mp4">
-            <track label="English Captions" kind="captions" srclang="English" src="assets/text-tracks/dog-video.vtt" >
-            <track label="French Captions" kind="captions" srclang="French" src="assets/text-tracks/dog-video.vtt" >
+                <source src="./assets/videos/pigeons-in-love.mp4">
+            <track label="English Captions" kind="subtitles" srclang="English" src="./assets/text-tracks/pigeons-in-love-english.vtt" >
+            <track label="French Captions" kind="subtitles" srclang="French" src="./assets/text-tracks/pigeons-in-love-french.vtt" >
         </div>
     </main>
 </body>
